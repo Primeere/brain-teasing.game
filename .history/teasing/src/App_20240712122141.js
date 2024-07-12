@@ -14,15 +14,6 @@ const App=()=>{
 <Game/>
       </div>
     </div> */}
-    <div>
-      
-      <h1 >
-      Welcome to the Brain Twister game 
-      </h1>
-      <div >
-<Game/>
-      </div>
-    </div>
     </>
   )
 }

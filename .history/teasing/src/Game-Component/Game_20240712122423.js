@@ -81,7 +81,7 @@ placeholder="enter the answer here"
 />
 <button onClick={reset}>Reset</button>
 <button onClick={check}>Enter</button>
-{value}
+{}
 
         </>
 

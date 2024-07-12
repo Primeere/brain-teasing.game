@@ -59,13 +59,13 @@ placeholder="enter the answer here"
     }
     {
         err ? (
-            <p >{err
+            <p className="game.Game_err">{err
             }</p>
         ):null
     }
     {
         success ? (
-            <p >
+            <p className="game.Success">
                 {success}
             </p>
         )
@@ -81,7 +81,6 @@ placeholder="enter the answer here"
 />
 <button onClick={reset}>Reset</button>
 <button onClick={check}>Enter</button>
-{value}
 
         </>
 

@@ -52,20 +52,20 @@ placeholder="enter the answer here"
 <button onClick={check}>Enter</button>
         </> */}
         <div>
-        <p>{score}</p>
+        <p+>{score}</p>
     {question ? (
-        <p >{question}</p>
+        <p className="game.Game_questions">{question}</p>
     ):null
     }
     {
         err ? (
-            <p >{err
+            <p className="game.Game_err">{err
             }</p>
         ):null
     }
     {
         success ? (
-            <p >
+            <p className="game.Success">
                 {success}
             </p>
         )
@@ -81,7 +81,6 @@ placeholder="enter the answer here"
 />
 <button onClick={reset}>Reset</button>
 <button onClick={check}>Enter</button>
-{value}
 
         </>
 

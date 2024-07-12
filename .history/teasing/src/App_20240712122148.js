@@ -14,7 +14,7 @@ const App=()=>{
 <Game/>
       </div>
     </div> */}
-    <div>
+    <div className="app.main-container">
       
       <h1 >
       Welcome to the Brain Twister game 

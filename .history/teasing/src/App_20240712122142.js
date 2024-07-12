@@ -14,12 +14,12 @@ const App=()=>{
 <Game/>
       </div>
     </div> */}
-    <div>
+    <div className="app.main-container">
       
-      <h1 >
+      <h1 className="app.game-header">
       Welcome to the Brain Twister game 
       </h1>
-      <div >
+      <div className="app.game-container">
 <Game/>
       </div>
     </div>

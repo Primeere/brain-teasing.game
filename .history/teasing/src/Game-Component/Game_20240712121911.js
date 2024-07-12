@@ -20,7 +20,7 @@ const Game  =()=>{
     const ANSWERS =[];
     return(
         <>
-        {/* <div>
+        <div>
         <p className="game.Game_score">{score}</p>
     {question ? (
         <p className="game.Game_questions">{question}</p>
@@ -46,45 +46,11 @@ const Game  =()=>{
 onChange={(e)=>setValue(e.target.value)}
 
 className="game.input"
-placeholder="enter the answer here"
+placeholder="enter the value"
 />
-<button onClick={reset}>Reset</button>
-<button onClick={check}>Enter</button>
-        </> */}
-        <div>
-        <p>{score}</p>
-    {question ? (
-        <p >{question}</p>
-    ):null
-    }
-    {
-        err ? (
-            <p >{err
-            }</p>
-        ):null
-    }
-    {
-        success ? (
-            <p >
-                {success}
-            </p>
-        )
-        :null
-        }
-        </div>
-        <input
-        value={value}
-onChange={(e)=>setValue(e.target.value)}
-
-className="game.input"
-placeholder="enter the answer here"
-/>
-<button onClick={reset}>Reset</button>
-<button onClick={check}>Enter</button>
-{value}
-
+<button onClick={reset}>reset</button>
+<button onClick={}></button>
         </>
-
     )
 }
 export default Game

@@ -51,40 +51,7 @@ placeholder="enter the answer here"
 <button onClick={reset}>Reset</button>
 <button onClick={check}>Enter</button>
         </> */}
-        <div>
-        <p>{score}</p>
-    {question ? (
-        <p >{question}</p>
-    ):null
-    }
-    {
-        err ? (
-            <p >{err
-            }</p>
-        ):null
-    }
-    {
-        success ? (
-            <p >
-                {success}
-            </p>
-        )
-        :null
-        }
-        </div>
-        <input
-        value={value}
-onChange={(e)=>setValue(e.target.value)}
-
-className="game.input"
-placeholder="enter the answer here"
-/>
-<button onClick={reset}>Reset</button>
-<button onClick={check}>Enter</button>
-{value}
-
-        </>
-
+        
     )
 }
 export default Game

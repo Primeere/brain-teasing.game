@@ -65,7 +65,7 @@ placeholder="enter the answer here"
     }
     {
         success ? (
-            <p >
+            <p className="game.Success">
                 {success}
             </p>
         )
@@ -81,7 +81,6 @@ placeholder="enter the answer here"
 />
 <button onClick={reset}>Reset</button>
 <button onClick={check}>Enter</button>
-{value}
 
         </>
 
