@@ -1,8 +1,7 @@
 import react from "react"
 import { useState,useEffect } from "react"
 import { useCallback } from "react";
-import { QUESTION } from "./Questions";
-import { ANSWERS } from "./Questions";
+import 
 const Game  =()=>{
     const [words,setWords] =useState('');
     const [value,setValue]   =useState('');
