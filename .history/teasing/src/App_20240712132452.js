@@ -5,7 +5,7 @@ import Game from './Game-Component/Game';
 const App=()=>{
   return(
     <>
-    <div className="app.main-container">
+    {/* <div className="app.main-container">
       
       <h1 className="app.game-header">
       Welcome to the Brain Twister game 
@@ -13,8 +13,8 @@ const App=()=>{
       <div className="app.game-container">
 <Game/>
       </div>
-    </div>
-    {/* <div>
+    </div> */}
+    <div>
       
       <h1 >
       Welcome to the Brain Twister game 
@@ -22,7 +22,7 @@ const App=()=>{
       <div >
 <Game/>
       </div>
-    </div> */}
+    </div>
     </>
   )
 }
