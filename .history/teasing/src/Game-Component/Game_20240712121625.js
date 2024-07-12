@@ -34,13 +34,12 @@ const Game  =()=>{
     }
     {
         succes ? (
-            <p className="game.Success">
-                {succes}
-            </p>
+            <p className="game.Scu"></p>
         )
-        :null
-        }
+        
+    }
         </div>
+
         </>
     )
 }

@@ -38,9 +38,11 @@ const Game  =()=>{
                 {succes}
             </p>
         )
-        :null
-        }
+        :m=null
+        
+    }
         </div>
+
         </>
     )
 }

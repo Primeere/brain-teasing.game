@@ -5,7 +5,7 @@ const Game  =()=>{
     const [value,setValue]   =useState('');
     const [score,setScore] =useState(0);
     const [err,setErr] =useState('');
-    const [succes,setSuccess] =useState('');
+    const [status ,setStatus] =useState('');
     const [question,setQuestion] =useState('');
     
     useEffect(()=>{
@@ -26,21 +26,9 @@ const Game  =()=>{
         <p className="game.Game_questions">{question}</p>
     ):null
     }
-    {
-        err ? (
-            <p className="game.Game_err">{err
-            }</p>
-        ):null
-    }
-    {
-        succes ? (
-            <p className="game.Success">
-                {succes}
-            </p>
-        )
-        :null
-        }
+    {}
         </div>
+
         </>
     )
 }

@@ -41,6 +41,7 @@ const Game  =()=>{
         :null
         }
         </div>
+
         </>
     )
 }
