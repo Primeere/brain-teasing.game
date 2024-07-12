@@ -14,8 +14,7 @@ const Game  =()=>{
     }
     const reset=()=>{}
     const check =()=>{}
-    const QUESTIONS =[];
-    const ANSWERS =[]''
+    
     return(
         <>
         </>

@@ -12,10 +12,7 @@ const Game  =()=>{
     const wordGenerator=()=>{
 
     }
-    const reset=()=>{}
-    const check =()=>{}
-    const QUESTIONS =[];
-    const ANSWERS =[]''
+    const reset=
     return(
         <>
         </>

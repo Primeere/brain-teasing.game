@@ -9,13 +9,6 @@ const Game  =()=>{
     useEffect(()=>{
         wordGenerator()
     },[])
-    const wordGenerator=()=>{
-
-    }
-    const reset=()=>{}
-    const check =()=>{}
-    const QUESTIONS =[];
-    const ANSWERS =[]''
     return(
         <>
         </>

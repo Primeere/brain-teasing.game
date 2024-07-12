@@ -7,15 +7,8 @@ const Game  =()=>{
     const [err,setErr] =useState('');
     const [status ,setStatus] =useState('');
     useEffect(()=>{
-        wordGenerator()
+        wordGenerator
     },[])
-    const wordGenerator=()=>{
-
-    }
-    const reset=()=>{}
-    const check =()=>{}
-    const QUESTIONS =[];
-    const ANSWERS =[]''
     return(
         <>
         </>
