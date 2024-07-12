@@ -28,9 +28,8 @@ const Game  =()=>{
     }
     const check =()=>{
         if(value){
-            if(value.toLowerCase() === words.toLowerCase())
-                {
-                    setValue(''); 
+            if(value.toLowerCase === words.toLowerCase()){
+                        setValue(''); 
                         console.log("logging")
         setErr(null); 
         setSuccess('Correct Answer'); 

@@ -28,17 +28,8 @@ const Game  =()=>{
     }
     const check =()=>{
         if(value){
-            if(value.toLowerCase() === words.toLowerCase())
-                {
-                    setValue(''); 
-                        console.log("logging")
-        setErr(null); 
-        setSuccess('Correct Answer'); 
-        setScore((prevScore) => prevScore + 1); 
-        wordGenerator(); 
-                    }
-             
-                
+            if(value!==undefined && words !==null){
+               }
             else{
                 setErr(
                     "incorrect answer"
@@ -49,13 +40,10 @@ const Game  =()=>{
                 wordGenerator()
             }
         }
-            else{
-                setErr("enter the value ");
-                console.log("mao")
-                setSuccess(null)
-            }
-    
-       
+        else{
+            setErr("enter the value ");
+            setSuccess(null)
+        }
     }
     // const QUESTIONS =[];
     // const ANSWERS =[];

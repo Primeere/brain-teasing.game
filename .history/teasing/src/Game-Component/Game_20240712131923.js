@@ -28,7 +28,7 @@ const Game  =()=>{
     }
     const check =()=>{
         if(value){
-            if(value.toLowerCase() === words.toLowerCase())
+            if(value.toLowerCase === words.toLowerCase())
                 {
                     setValue(''); 
                         console.log("logging")
