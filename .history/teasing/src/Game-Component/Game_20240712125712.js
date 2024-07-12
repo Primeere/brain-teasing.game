@@ -28,11 +28,12 @@ const Game  =()=>{
     }
     const check =()=>{
         if(value){
-            if(value!==undefined && words !==null){
+            if(value.toLowerCase() === words.()){
                 setValue('');
                 setScore((prevscore)=>prevscore+1);
                 setSuccess("correct answer");
                 setErr(null);
+           
            wordGenerator() }
             else{
                 setErr(
@@ -49,8 +50,8 @@ const Game  =()=>{
             setSuccess(null)
         }
     }
-    // const QUESTIONS =[];
-    // const ANSWERS =[];
+    const QUESTIONS =[];
+    const ANSWERS =[];
     return(
         <>
         {/* <div>

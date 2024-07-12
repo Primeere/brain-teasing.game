@@ -20,19 +20,16 @@ const Game  =()=>{
         setQuestion(QUESTION[randomNumber])
     }
     const reset=()=>{
-        setValue(null)
-        ;
-        setErr(null)
-        setSuccess(null);
-        wordGenerator()
+        set
     }
     const check =()=>{
         if(value){
-            if(value!==undefined && words !==null){
+            if(value.toLowerCase() === words.toLowerCase()){
                 setValue('');
                 setScore((prevscore)=>prevscore+1);
                 setSuccess("correct answer");
                 setErr(null);
+           
            wordGenerator() }
             else{
                 setErr(
@@ -49,8 +46,8 @@ const Game  =()=>{
             setSuccess(null)
         }
     }
-    // const QUESTIONS =[];
-    // const ANSWERS =[];
+    const QUESTIONS =[];
+    const ANSWERS =[];
     return(
         <>
         {/* <div>

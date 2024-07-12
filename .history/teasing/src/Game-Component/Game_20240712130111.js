@@ -49,8 +49,8 @@ const Game  =()=>{
             setSuccess(null)
         }
     }
-    // const QUESTIONS =[];
-    // const ANSWERS =[];
+    const QUESTIONS =[];
+    const ANSWERS =[];
     return(
         <>
         {/* <div>
