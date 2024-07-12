@@ -1,11 +1,13 @@
 import react from "react"
 import { useState,useEffect } from "react"
+import game from "./Game.css"
 const Game  =()=>{
-    const [words,setWords] =useState('');
+    const [word,setWord] =useState('');
     const [value,setValue]   =useState('');
     const [score,setScore] =useState(0);
     const [err,setErr] =useState('');
     const [status ,setStatus] =useState('');
+    const [question,setQuestion] =useState('');
     useEffect(()=>{
         wordGenerator()
     },[])
@@ -15,10 +17,18 @@ const Game  =()=>{
     const reset=()=>{}
     const check =()=>{}
     const QUESTIONS =[];
-    const ANSWERS =[]''
+    const ANSWERS =[];
     return(
         <>
+        <div>
+        <p className="game.Game_score">{score}</p>
+    {
+    question ? (
+        <p className="game.Game_questions">{question}</p>
+    )
+    }
+        </div>
         </>
     )
 }
-export default Game
+export default Game;
